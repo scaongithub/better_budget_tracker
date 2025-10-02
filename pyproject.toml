@@ -1,0 +1,16 @@
+[project]
+name = "better-budget-tracker"
+version = "0.1.0"
+description = "Backend service for a budget tracking web application built with FastAPI."
+authors = ["Carlo & Paola"]
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.25",
+    "sqlmodel>=0.0.16",
+    "python-multipart>=0.0.6"
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
