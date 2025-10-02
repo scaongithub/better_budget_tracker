@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { BudgetProvider } from './context/BudgetContext.jsx';
 import Dashboard from './components/Dashboard.jsx';
 import Login from './components/Login.jsx';
